@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /Todo3/
+    RewriteRule ^.*$ index.php [END]
+
+</IfModule>
+
